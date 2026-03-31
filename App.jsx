@@ -192,7 +192,7 @@ export default function BrylStudioFreelancer() {
 
       {/* FOOTER */}
       <footer style={{ padding: '3rem 2rem', borderTop: '1px solid #4ade8015', textAlign: 'center', color: '#a8a7bc', fontSize: '0.9rem', background: '#09090d' }}>
-        <p style={{ margin: 0 }}>© 2026 Bryl Studio • Wix Specialist • montesclarosbrylle@gmail.com • Taguig, Philippines (UTC+8)</p>
+        <p style={{ margin: 0 }}>© 2026 Bryl Studio • Wix Specialist • montesclarosbrylle@gmail.com • <a href="http://www.linkedin.com/in/bryllemontesclaros" target="_blank" rel="noopener noreferrer" style={{ color: '#4ade80', textDecoration: 'none', transition: 'all 0.3s ease' }} onMouseOver={(e) => { e.target.style.color = '#22c55e'; }} onMouseOut={(e) => { e.target.style.color = '#4ade80'; }}>LinkedIn</a> • Taguig, Philippines (UTC+8)</p>
       </footer>
     </div>
   );
